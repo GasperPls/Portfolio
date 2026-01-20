@@ -5,9 +5,11 @@ import App from './App.jsx'
 import Footer from './components/footer.jsx'
 import NavBar from './components/navbar.jsx'
 import Hero from './components/hero.jsx'
+import Header from './components/header.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Header />
     <App />
     <NavBar />
     <Hero />
